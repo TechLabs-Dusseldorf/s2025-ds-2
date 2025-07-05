@@ -1,5 +1,7 @@
 # Welcome Group2 to your project phase
 
+Data-Link: https://www.kaggle.com/datasets/adilshamim8/social-media-addiction-vs-relationships/data
+
 ## The scenario: Social Media Addiction
 You are now part of the Digital Wellness Institute (DWI), a leading non-profit organization dedicated to understanding the societal impacts of digital technologies and promoting healthy digital habits.
 The DWI is launching a new awareness campaign focused on the relationship between social media usage, mental well-being, and personal relationships, particularly among students. They have collected a unique dataset and require your expertise to uncover key insights. The goal is to provide evidence-based recommendations for educational programs, digital literacy initiatives, and potential policy suggestions to promote healthier social media engagement.
