@@ -75,12 +75,12 @@ Based on data patterns, we propose:
 
 ###Key Visualizations
 
-Bar Chart               – Most used social media platforms
-Box Plots               – Usage patterns by gender and academic level
-Heatmap                 – Correlation matrix among key numeric variables
-Scatter Plots           – Addiction vs. usage and sleep hours
-Pie Charts              – Conflict distribution, platform breakdown
-K-Means Cluster Plot    – Behavior-based segmentation
+* Bar Chart               – Most used social media platforms
+* Box Plots               – Usage patterns by gender and academic level
+* Heatmap                 – Correlation matrix among key numeric variables
+* Scatter Plots           – Addiction vs. usage and sleep hours
+* Pie Charts              – Conflict distribution, platform breakdown
+* K-Means Cluster Plot    – Behavior-based segmentation
 
 ---
 
