@@ -109,11 +109,11 @@ Based on data patterns, we propose:
 
 ##Stakeholder	Application
 
-Students                        	- Awareness of their digital behavior and risks
-Educators                       	- Curriculum updates and digital literacy training
-Mental Health Professionals      	- Early warning signs and behavior profiling
-Policymakers                    	- Data to support national or institutional guidelines
-Parents & Guardians             	- Understanding youth digital engagement
+* Students                        	- Awareness of their digital behavior and risks
+* Educators                       	- Curriculum updates and digital literacy training
+* Mental Health Professionals      	- Early warning signs and behavior profiling
+* Policymakers                    	- Data to support national or institutional guidelines
+* Parents & Guardians             	- Understanding youth digital engagement
 
 ---
 
