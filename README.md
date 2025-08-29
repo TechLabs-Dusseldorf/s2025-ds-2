@@ -1,98 +1,94 @@
 # Welcome to the Repository of Group2 in Sommer2025
 
-# Social Media Addiction vs Relationships
-
 ## Digital Wellness Institute (DWI) Student Analysis Project
+# Social Media Usage & Addiction Analysis
 
-###Overview
+## 1. Project Overview
+This project studies how students use social media and how it affects their sleep, mental health, academic performance, and relationships.  
 
-Welcome to the project for the **Digital Wellness Institute** (DWI). This analysis investigates the impact of **social media usage** on **students' mental well-being**, **academic performance**, **personal relationships**, and **addiction behaviors** using data from a Kaggle dataset:
-[Social Media Addiction vs Relationships](https://www.kaggle.com/datasets/adilshamim8/social-media-addiction-vs-relationships/data)
+The data comes from surveys where students shared:  
+- How many hours they use social media per day  
+- Their sleep time and mental health score  
+- If social media caused conflicts in their relationships  
+- Their academic level, country, and most-used platform  
 
----
-
-###Project Objective
-
-The DWI is launching a new awareness campaign and seeks data-driven insights to:
-
-* Understand patterns in social media usage among students.
-* Assess its impact on mental health, academic performance, and personal relationships.
-* Develop actionable strategies and recommendations for promoting **healthy digital habits**.
+The goal is to find patterns and risks in social media usage and give recommendations for healthier digital habits.
 
 ---
 
-###Dataset Summary
+## 2. Installation and Requirements  
 
-* **Source**: Kaggle
-* **Format**: CSV
-* **Records**: Student responses from a digital well-being survey.
-* **Key Features**:
+### Requirements  
+You need the following installed:  
+- Python (version 3.8 or later)  
+- Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn  
 
-  * `Gender`, `Age`, `Country`, `Academic_Level`, `Most_Used_Platform`
-  * `Average_Daily_Usage_Hours`, `Addiction_Score`, `Mental_Health_Score`, `Sleep_Hours`
-  * `Relationship_Status`, `Conflicts_over_Social_Media`, `Impact_on_Academic_Performance`
+### How to Install  
+Open a terminal (or Anaconda Prompt) and run:  
 
----
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```  
 
-###Tasks Completed
-
-#### 1. Data Exploration
-
-* Loaded the dataset using Pandas.
-* Displayed sample rows, data types, and unique categorical values.
-* Checked and handled missing values.
-* Descriptive statistics for numerical features.
-
-#### 2. Beginner-Level Analysis
-
-* Most used social media platforms distribution.
-* Average usage hours by gender and academic level.
-* Impact on academic performance vs. sleep hours.
-* Addiction score correlation with daily usage.
-
-#### 3. Intermediate-Level Analysis
-
-* Correlation heatmap of mental health, sleep, and addiction scores.
-* Platform-wise addiction score comparison.
-* Relationship conflicts vs. addiction and usage metrics.
-* Analyzed differences based on relationship status.
-* Clustering of student behavior using K-Means.
-
-#### 4. Demographics & Geographic Insights
-
-* Country-wise comparison of social media addiction and usage.
-* Influence of age and academic level on social media patterns.
-
-#### 5. Key Insights & Recommendations
-
-Based on data patterns, we propose:
-
-* Digital literacy education for early academic levels.
-* Sleep hygiene and screen-time awareness campaigns.
-* Support programs for students reporting high addiction scores and conflicts.
+This will install everything needed to run the project.  
 
 ---
 
-###Key Visualizations
+## 3. How to Run the Project
+There are two ways to run:
 
-* Bar Chart               – Most used social media platforms
-* Box Plots               – Usage patterns by gender and academic level
-* Heatmap                 – Correlation matrix among key numeric variables
-* Scatter Plots           – Addiction vs. usage and sleep hours
-* Pie Charts              – Conflict distribution, platform breakdown
-* K-Means Cluster Plot    – Behavior-based segmentation
+### Option 1: Jupyter Notebook / Google Colab
+- Open `Structured_code.ipynb` in Jupyter or Google Colab.  
+- Run the cells step by step to see data cleaning, analysis, and graphs.  
+
+### Option 2: Python Script
+- Run the script from terminal:
+  ```bash
+  python structured_code.py
+  ```
+- This will load the dataset, clean it, create graphs, and save processed files like:
+  - `students_social_media_cleaned.csv`  
+  - `students_social_media_with_clusters.csv`  
+
+---
+
+## 4. Analysis Summary
+
+### Main Findings
+- Average daily usage: Students spend several hours on social media each day(Average 4.9).  
+- Addiction score: Higher usage hours are strongly linked to higher addiction scores.  
+- Academic performance: Students with heavy use often report negative impact on studies and lower sleep hours.  
+- Conflicts: A large percentage of students say social media causes conflicts in relationships.  
+- Mental health: High addiction scores connect with lower mental health scores and less sleep.  
+- Platform differences: Some platforms show higher average addiction scores than others.  
+- Clusters (student groups):
+  - Low-use group: Balanced usage, better sleep, healthier scores  
+  - Moderate-use group: Medium usage, some conflicts, mixed mental health  
+  - High-use group: Very high usage, poor sleep, high addiction, more conflicts  
+
+### Graphs
+The notebook shows:  
+- Bar charts of most used platforms  
+- Boxplots (e.g., daily usage by gender/academic level)  
+- Correlation heatmaps (addiction vs sleep vs mental health)  
+- Scatter plots (usage vs addiction)  
+- Clustering plots (groups of students)  
 
 ---
 
-###Technologies Used
+## 5. Results and Recommendations
 
-* Python
-* Pandas, NumPy
-* Matplotlib, Seaborn
-* Scikit-learn (for clustering)
-* Google Collab (see `DS.ipynb`)
+### Results
+- Strong link between daily hours and addiction level.  
+- Negative effect of heavy social media on sleep and mental health.  
+- Relationship conflicts rise with higher addiction scores.  
+- Different patterns depending on age, country, and platform.  
 
----
+### Recommendations
+1. Education programs Teach students about balancing screen time and sleep.  
+2. Digital literacy Encourage awareness about how platforms affect mental health.  
+3. Healthy habits Suggest regular breaks, setting daily limits, and prioritizing offline activities. 
+
 
 ### File Structure
 
@@ -105,35 +101,3 @@ Based on data patterns, we propose:
 │   └── Social_Media_Data.csv   # Raw dataset (from Kaggle)
 ```
 
----
-
-##Stakeholder	Application
-
-* Students                        	- Awareness of their digital behavior and risks
-* Educators                       	- Curriculum updates and digital literacy training
-* Mental Health Professionals      	- Early warning signs and behavior profiling
-* Policymakers                    	- Data to support national or institutional guidelines
-* Parents & Guardians             	- Understanding youth digital engagement
-
----
-
-###Top Insights
-
-1. **Addiction scores** are strongly correlated with **lower sleep hours** and **poorer mental health**.
-2. Students with **conflicts in relationships** due to social media also tend to have higher daily usage and addiction scores.
-3. Platforms like **Instagram** and **TikTok** are linked to higher usage and addiction rates compared to LinkedIn or Twitter.
-
----
-
-###Recommendations
-
-* **Digital Literacy**: Integrate social media education in academic curricula.
-* **Wellness Programs**: Promote balance with screen-time reduction challenges.
-* **Support Systems**: Offer counseling to students affected in relationships.
-* **Policy Advocacy**: Encourage campus-wide digital detox days or social media usage caps during exam seasons.
-
----
-
-###License
-
-This project is for educational and awareness purposes under the **Digital Wellness Institute Initiative**.
